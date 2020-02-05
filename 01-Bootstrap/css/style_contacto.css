@@ -1,0 +1,32 @@
+header{
+	color:#FF0000;
+	background-color: #383838;
+}
+.container{
+	background-color: #FBD3C2;
+}
+body{
+	background-color: blue;
+}
+li{
+	font-family: verdana;
+	font-size: 15px;
+}
+p{
+	font-family: verdana;
+}
+img{
+	width: 20%;
+}
+footer{
+	background-color: grey;
+}
+#galeria{
+	align-content: center;
+}
+.row{
+	flex-grow: all; 
+}
+div [class*="col"] {
+  background-color: #b99898;
+}
