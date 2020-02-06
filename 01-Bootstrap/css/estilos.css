@@ -1,0 +1,13 @@
+body{
+    font-family: Helvetica;
+}
+.img-fluid{
+    width: 25%;
+}
+.social{
+    padding: 2px;
+    width: 10%;
+}
+.redes{
+    padding-top: 100px;
+}
