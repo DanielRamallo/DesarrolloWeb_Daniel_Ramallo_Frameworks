@@ -12,7 +12,7 @@
     <body class="container-fluid blog-cuerpo">
         <header>
             <div class="container">
-                <div class="row encabezado">
+                <div class="row encabezado" id="redes">
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="row"></div>
                         <img src="img/logo.png" class="img-fluid mr-3" alt="Responsive image">
@@ -40,8 +40,27 @@
             </div>
         </header>
         <hr>
-        <div class="container">
-            hola
+        <div class="container" id="barra-exploradora">
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">DISCOGRAFIA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">GALERIA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">TOP 100</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">MEJORES RECITALES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTENIDO EXCLUSIVO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">COMPRAS</a>
+                </li>
+              </ul><br>
         </div>
         <hr>
         <div class="container">
@@ -64,8 +83,6 @@
                         <div class="col-md-4 col-xs-12">
                             <img src="img/los-beatles-alrededor-del-mundo.jpg" class="img-thumbnail" alt="Responsive image">
                         </div>
-                    </div>
-                    <div class="row">
                         <legend>Ayudanos a mejorar</legend>
                         <div class="col-lg-2 col-md-3 col-xs-3">
                             <img src="icons/user.svg" class="img-thumbnail icono-usuario" alt="Responsive image">
@@ -79,62 +96,80 @@
                                 </div>
                             </form>
                         </div>
+                        <div class="row">
+                            <div class="col-md-4 col-xs-12">
+                                <img src="img/azotea.jpg" class="img-thumbnail" alt="Responsive image">
+                            </div>
+                            <div class="col-md-8 col-xs-12">
+                                <h3>
+                                    Muere la banda, nace la leyenda: El concierto en la azotea
+                                </h3>
+                                <p>
+                                    El Concierto en la azotea fue el último concierto que realizó la banda 
+                                    británica The Beatles al final de sus años como banda y en la época 
+                                    donde el nivel musical había comenzado un elevado ascenso, hasta llegar 
+                                    a la cumbre máxima en Abbey Road. Es nombrado popularmente como concierto 
+                                    en la terraza, concierto en el tejado y concierto en Apple Corps, 
+                                    y recibe este nombre obviamente porque se realizó en la azotea de 
+                                    los Apple Corps en Londres, estudio de grabación de la banda.
+                                </p>
+                        </div>
                         
-                    </div>
-                    
-
+                            <legend>Ayudanos a mejorar</legend>
+                            <div class="col-lg-2 col-md-3 col-xs-3">
+                                <img src="icons/user.svg" class="img-thumbnail icono-usuario" alt="Responsive image">
+                            </div>
+                            <div class="row col-lg-10 col-md-9 col-xs-9">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="comment">Comment:</label>
+                                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                        
                     <hr>
-
                 </div>
-                <div class="col-md-3 col-sm-12">
-                    <nav class="navbar navbar-light bg-light">
-                        <form class="form-inline">
-                          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-                          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                        </form>
-                      </nav>
-
-                </div>
-                <div class="col-md-9 col-sm-12 col-xs-12">
-                    <div class="row">
-                        <div class="col-md-4 col-xs-12">
-                            <img src="img/azotea.jpg" class="img-thumbnail" alt="Responsive image">
-                        </div>
-                        <div class="col-md-8 col-xs-12">
-                            <h3>
-                                Muere la banda, nace la leyenda: El concierto en la azotea
-                            </h3>
-                            <p>
-                                El Concierto en la azotea fue el último concierto que realizó la banda británica The Beatles al final de sus años como banda y en la época donde el nivel musical había comenzado un elevado ascenso, hasta llegar a la cumbre máxima en Abbey Road. Es nombrado popularmente como concierto en la terraza, concierto en el tejado y concierto en Apple Corps, y recibe este nombre obviamente porque se realizó en la azotea de los Apple Corps en Londres, estudio de grabación de la banda.
-                            </p>
-                        </div>
-                        
-                    </div>
-                    <div class="row">
-                        <legend>Ayudanos a mejorar</legend>
-                        <div class="col-lg-2 col-md-3 col-xs-3">
-                            <img src="icons/user.svg" class="img-thumbnail icono-usuario" alt="Responsive image">
-                        </div>
-                        
-                        <div class="row col-lg-10 col-md-9 col-xs-9">
-                            <form>
-                                <div class="form-group">
-                                    <label for="comment">Comment:</label>
-                                    <textarea class="form-control" rows="5" id="comment"></textarea>
-                                </div>
-                            </form>
-                        </div>
-                        
-                        
-                    </div>
-                    
-
-                    <hr>
-
                 </div>
                 
-                <div class="col-md-3 col-sm-12">
+                    <hr>
                     
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="col-md-3 col-sm-12"></div>
+                        <nav class="navbar navbar-light bg-light">
+                            <form class="form-inline">
+                              <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                              <div class="list-group">
+                                <a href="#" class="list-group-item active">
+                                  Cras justo odio
+                                </a>
+                                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                                <a href="#" class="list-group-item">Morbi leo risus</a>
+                                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                                <a href="#" class="list-group-item">Vestibulum at eros</a>
+                                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                                <a href="#" class="list-group-item">Morbi leo risus</a>
+                                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                                <a href="#" class="list-group-item">Vestibulum at eros</a>
+                                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                                <a href="#" class="list-group-item">Morbi leo risus</a>
+                                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                                <a href="#" class="list-group-item">Vestibulum at eros</a>
+                                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                                <a href="#" class="list-group-item">Morbi leo risus</a>
+                                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                                <a href="#" class="list-group-item">Vestibulum at eros</a>
+                                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                                <a href="#" class="list-group-item">Morbi leo risus</a>
+                                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                                <a href="#" class="list-group-item">Vestibulum at eros</a>
+                              </div>
+                          </nav>
+                        </form>
+                </div>
+                
             </div>
         </div>
         

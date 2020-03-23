@@ -1,6 +1,9 @@
 body{
     font-family: Helvetica;
 }
+#entero{
+    background-color: darkorchid;
+}
 .img-fluid{
     width: 25%;
 }
@@ -10,6 +13,9 @@ body{
 }
 .redes{
     padding-top: 100px;
+}
+#barra-exploradora{
+    background-color: gainsboro;
 }
 .icono-usuario{
         width: 100%;
