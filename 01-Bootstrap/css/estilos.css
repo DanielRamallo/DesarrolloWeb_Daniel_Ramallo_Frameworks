@@ -11,3 +11,9 @@ body{
 .redes{
     padding-top: 100px;
 }
+.icono-usuario{
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
